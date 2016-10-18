@@ -1,3 +1,113 @@
-<style>
+* {
+	box-sizing: border-box;
+}
 
-</style>
+header {
+	border: 1px solid #cccccc;
+	padding: 60px;
+	margin-bottom: 40px;
+	border-bottom: 1px solid #cccccc;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background-color: #ffffff;
+}
+
+h1 {
+	float: left;
+	text-align: center;
+	background-color: #4aaaa5;
+	width: 40%;
+	margin-left: 40px;
+	padding: 10px;
+	font-size: 40px;
+	color: #ffffff;
+}
+
+.nav-bar ul {
+	list-style: none;
+	/*text-align: center;*/
+/*	border: 1px solid black;*/
+	display: inline-block;
+	float: right;
+	overflow: hidden;
+}
+
+.nav-bar li {
+      display: inline-block;
+      padding: 10px 40px 0 20px;
+	 color: #777777;
+	 font-size: 18px;
+	 color: gray;
+}
+
+a {
+	text-decoration: none;
+	color: gray;
+}
+
+body {
+/*	border: px solid #dddddd;
+*/	display: inline-block;
+	position: absolute;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-image: url("../images/sayagata-400px.png");
+
+}
+
+img {
+	/*border: 1px solid gray;*/
+	float: left;
+}
+
+#full-section {
+	clear: both;
+	border: 5px solid orange;
+}
+
+#content {
+	clear: both;
+	border: 1px solid #dddddd;
+	width: 65%;
+	float: left;
+	padding: 20px;
+	margin: auto auto auto 60px;
+	background-color: #ffffff;
+	line-height: 25px;
+
+}
+
+#content img {
+	padding: 20px;
+}
+
+aside {
+	border: 1px solid #dddddd;
+	width: 20%;
+	float: right;
+	padding: 20px;
+	margin: auto 80px auto auto;
+	background-color: #ffffff;
+}
+
+aside img{
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	margin-right: 10px;
+
+}
+
+aside li {
+	text-align: center;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	border-top: 5px solid #4aaaa5;
+	background-color: #666666;
+	padding: 20px;
+}

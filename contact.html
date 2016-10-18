@@ -11,7 +11,7 @@
 	
 	<!-- Navigation bar: links to About, Portfolio, Contact-->
 	<div>
-		<a href="link home.html">About</a>
+		<a href="link home.html">About</a> <!-- try a "<nav>" --> 
 		<a href="link to contact.html">Contact</a>
 		<a href="link to portfolio.html">Portfolio</a>
 	</div>
@@ -24,18 +24,19 @@
 	<!-- Column Left -->
 	<h2>Contact</h2>
 	<hr>
-	<!-- Insert fields -->
-	Name: <br>
-	<input type="text" name="Name" placeholder="Name"></input><br>
+	<form>
+		<!-- Insert fields -->
+		Name: <br>
+		<input type="text" name="Name" placeholder="Name"></input><br>
 
-	E-mail: <br>
-	<input type="text" name="E-mail" placeholder="E-mail"></input><br>
+		E-mail: <br>
+		<input type="text" name="E-mail" placeholder="E-mail"></input><br>
 
-	Message:<br>
-	<input type="textarea" cols="40" rows="5" name="Message" id="MessageField" style="width:200px; height:50px;" placeholder="Write your message here"</input><br>
+		Message:<br>
+		<input type="textarea" cols="40" rows="5" name="Message" id="MessageField" style="width:200px; height:50px;" placeholder="Write your message here"</input><br>
 
-	<button>Submit</button>
-
+		<button>Submit</button>
+	</form>
 	<!-- Column Right -->
 	<h3>Connect with me</h3>
 	<!-- Insert button icons here: GitHub, LinkedIn, StackOverflow-->
