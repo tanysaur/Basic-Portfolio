@@ -15,17 +15,20 @@ h1 {
 	float: left;
 	text-align: center;
 	background-color: #4aaaa5;
-	width: 40%;
+	width: 35%;
 	margin-left: 40px;
 	padding: 10px;
 	font-size: 40px;
 	color: #ffffff;
 }
 
+h2, h3 {
+	color: #4aaaa5;
+	font-size: 24px;
+}
+
 .nav-bar ul {
-	list-style: none;
-	/*text-align: center;*/
-/*	border: 1px solid black;*/
+	list-style: none;s
 	display: inline-block;
 	float: right;
 	overflow: hidden;
@@ -36,7 +39,7 @@ h1 {
       padding: 10px 40px 0 20px;
 	 color: #777777;
 	 font-size: 18px;
-	 color: gray;
+	 color: #cccccc;
 }
 
 a {
@@ -45,17 +48,17 @@ a {
 }
 
 body {
-/*	border: px solid #dddddd;
-*/	display: inline-block;
+	display: inline-block;
 	position: absolute;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	background-image: url("../images/sayagata-400px.png");
-
+	width: 100%
 }
 
 img {
-	/*border: 1px solid gray;*/
 	float: left;
+	width: 200;
+	height: 200;
 }
 
 #full-section {
@@ -66,10 +69,11 @@ img {
 #content {
 	clear: both;
 	border: 1px solid #dddddd;
-	width: 65%;
+	width: 60%;
+/*	position: fixed;*/
 	float: left;
 	padding: 20px;
-	margin: auto auto auto 60px;
+	margin: auto auto auto 80px;
 	background-color: #ffffff;
 	line-height: 25px;
 
@@ -82,8 +86,9 @@ img {
 aside {
 	border: 1px solid #dddddd;
 	width: 20%;
-	float: right;
-	padding: 20px;
+	/*position: absolute;
+*/	float: right;
+	padding: 30px;
 	margin: auto 80px auto auto;
 	background-color: #ffffff;
 }
@@ -110,4 +115,5 @@ footer {
 	border-top: 5px solid #4aaaa5;
 	background-color: #666666;
 	padding: 20px;
+	color: #cccccc;
 }

@@ -1,52 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Ysa's portfolio</title>
+	<title>Ysa's Portfolio</title>
+	    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-<body>
 
-<!-- Headers -->
-<div>
+<header>
 	<h1>Alyssa "Ysa" Tan</h1>
+
+      <nav class="nav-bar">
+            <ul>
+              <li><a href="index.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+            </ul>
+      </nav>
+	</header>
+
+<body>
+	<section id="content">
+      <h2>About</h2><hr>
+		<!-- <form>
 	
-	<!-- Navigation bar: links to About, Portfolio, Contact-->
-	<div>
-		<a href="link home.html">About</a> <!-- try a "<nav>" --> 
-		<a href="link to contact.html">Contact</a>
-		<a href="link to portfolio.html">Portfolio</a>
-	</div>
+			Name: <br>
+			<input type="text" name="Name" placeholder="Name"></input><br>
 
-</div>
+			E-mail: <br>
+			<input type="text" name="E-mail" placeholder="E-mail"></input><br>
 
+			Message:<br>
+			<input type="textarea" cols="40" rows="5" name="Message" id="MessageField" style="width: 50px; height:50px;" placeholder="Write your message here"</input><br>
 
-<!-- Sections -->
-<div>
-	<!-- Column Left -->
-	<h2>Contact</h2>
-	<hr>
-	<form>
-		<!-- Insert fields -->
-		Name: <br>
-		<input type="text" name="Name" placeholder="Name"></input><br>
+			<button>Submit</button>
+		</form> -->
+	</section>
 
-		E-mail: <br>
-		<input type="text" name="E-mail" placeholder="E-mail"></input><br>
+	<aside>
+  		<h3>Contact me</h3> <hr>
+  		<ul>
+  			<li><a href="github link" target="blank"><img src="assets/images/github.png" alt="github logo"/></a></li>
+  			<li ><a href="LinkedIn" target="blank"><img src="assets/images/linkedin.png" alt="linkedin logo" /></a></li>
+  			<li><a href="StackOverflow" target="blank"><img src="assets/images/stackoverflow.png" alt="stackoverflow logo" /></a></li>
+  		</ul>
+  	</aside>
 
-		Message:<br>
-		<input type="textarea" cols="40" rows="5" name="Message" id="MessageField" style="width:200px; height:50px;" placeholder="Write your message here"</input><br>
-
-		<button>Submit</button>
-	</form>
-	<!-- Column Right -->
-	<h3>Connect with me</h3>
-	<!-- Insert button icons here: GitHub, LinkedIn, StackOverflow-->
-
-</div>
-
-<!-- Footer -->
-<div>
-	Copyright 2016 Ysa Tan
-</div>
-
-</body>
+  </body>
+  	<footer>
+  		&copy; Copyright 2016 Ysa Tan
+  	</footer>
+</html>
 </html>
