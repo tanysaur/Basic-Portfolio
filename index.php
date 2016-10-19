@@ -1,1 +1,1 @@
-<?php include('bio.html');
+<?php include('index.html');
